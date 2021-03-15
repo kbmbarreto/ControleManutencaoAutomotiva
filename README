@@ -1,0 +1,31 @@
+=============================================== 
+=============================================== 
+*************** LEIA-ME PRIMEIRO **************
+=============================================== 
+-----------------------------------------------
+INFORMAÇÕES DO FICHEIRO
+-----------------------------------------------
+
+ControleManutencaoAutomotiva
+
+===============================================
+INFORMAÇÕES DOS ARQUIVOS
+-----------------------------------------------
+
+Projeto de sistema de controle de manutenção 
+automotiva em Desktop Application, utilizando 
+C# e SQL Server.
+
+Até o momento, as camadas Model e Controller 
+estão prontas, faltando terminar o CRUD na 
+camada View.
+
+=============================================== 
+INFORMAÇÕES DO AUTOR
+-----------------------------------------------
+KLEBER BARRETO - CSKMACEDO
+
+CONTATO: KLEBER.BARRETO@MSN.COM
+
+=============================================== 
+=============================================== 

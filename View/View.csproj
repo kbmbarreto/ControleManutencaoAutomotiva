@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{576866D5-944B-4F50-BA0A-C7B072229D4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>View</RootNamespace>
+    <AssemblyName>View</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCadastroDeManutencoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroDeManutencoes.Designer.cs">
+      <DependentUpon>frmCadastroDeManutencoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadFabricante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadFabricante.Designer.cs">
+      <DependentUpon>frmCadFabricante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadComponente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadComponente.Designer.cs">
+      <DependentUpon>frmCadComponente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadEstabelecimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadEstabelecimento.Designer.cs">
+      <DependentUpon>frmCadEstabelecimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadListaCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadListaCompras.Designer.cs">
+      <DependentUpon>frmCadListaCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadPlanejadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadPlanejadas.Designer.cs">
+      <DependentUpon>frmCadPlanejadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadTiposManutencao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadTiposManutencao.Designer.cs">
+      <DependentUpon>frmCadTiposManutencao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadVeiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadVeiculos.Designer.cs">
+      <DependentUpon>frmCadVeiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarComponentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarComponentes.Designer.cs">
+      <DependentUpon>frmConsultarComponentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarEstabelecimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarEstabelecimento.Designer.cs">
+      <DependentUpon>frmConsultarEstabelecimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarFabricantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarFabricantes.Designer.cs">
+      <DependentUpon>frmConsultarFabricantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarListaCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarListaCompras.Designer.cs">
+      <DependentUpon>frmConsultarListaCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarManutencoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarManutencoes.Designer.cs">
+      <DependentUpon>frmConsultarManutencoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarPlanejadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarPlanejadas.Designer.cs">
+      <DependentUpon>frmConsultarPlanejadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarVeiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarVeiculos.Designer.cs">
+      <DependentUpon>frmConsultarVeiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCadastroDeManutencoes.resx">
+      <DependentUpon>frmCadastroDeManutencoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadComponente.resx">
+      <DependentUpon>frmCadComponente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadEstabelecimento.resx">
+      <DependentUpon>frmCadEstabelecimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadFabricante.resx">
+      <DependentUpon>frmCadFabricante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadListaCompras.resx">
+      <DependentUpon>frmCadListaCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadPlanejadas.resx">
+      <DependentUpon>frmCadPlanejadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadTiposManutencao.resx">
+      <DependentUpon>frmCadTiposManutencao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadVeiculos.resx">
+      <DependentUpon>frmCadVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarComponentes.resx">
+      <DependentUpon>frmConsultarComponentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarEstabelecimento.resx">
+      <DependentUpon>frmConsultarEstabelecimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarFabricantes.resx">
+      <DependentUpon>frmConsultarFabricantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarListaCompras.resx">
+      <DependentUpon>frmConsultarListaCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarManutencoes.resx">
+      <DependentUpon>frmConsultarManutencoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarPlanejadas.resx">
+      <DependentUpon>frmConsultarPlanejadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarVeiculos.resx">
+      <DependentUpon>frmConsultarVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controller.csproj">
+      <Project>{0a26d95a-f8ad-4a34-98f5-f349fa096079}</Project>
+      <Name>Controller</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
