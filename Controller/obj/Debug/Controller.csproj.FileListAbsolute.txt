@@ -22,3 +22,16 @@ C:\Users\kleber.barreto\Documents\Git\csharp\Projetos\ControleManutencaoAutomoti
 C:\Users\kleber.barreto\Documents\Git\csharp\Projetos\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.CopyComplete
 C:\Users\kleber.barreto\Documents\Git\csharp\Projetos\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.exe
 C:\Users\kleber.barreto\Documents\Git\csharp\Projetos\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.pdb
+E:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Controller.exe.config
+E:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Controller.exe
+E:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Controller.pdb
+E:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Model.exe
+E:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Model.pdb
+E:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Model.exe.config
+E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
+E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.Properties.Resources.resources
+E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.GenerateResource.cache
+E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.CopyComplete
+E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.exe
+E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.pdb

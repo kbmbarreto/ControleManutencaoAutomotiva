@@ -8,8 +8,8 @@ namespace Model
 {
     public class Dbstring
     {
-        public static string Cnx = @"Data Source=KLEBERTVF\SQLKBM;Initial Catalog=ManutencaoVeicular;
-Persist Security Info=False;User ID=sa;Password=dev2020;MultipleActiveResultSets=False;Encrypt=False;
+        public static string Cnx = @"Data Source=KBMNITRO\localhost;Initial Catalog=ManutencaoVeicular;
+Persist Security Info=False;User ID=sa;Password=Dev2020@;MultipleActiveResultSets=False;Encrypt=False;
 TrustServerCertificate=False;Connection Timeout=30;";
     }
 }
