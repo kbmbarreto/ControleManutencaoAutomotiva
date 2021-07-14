@@ -23,3 +23,12 @@ E:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.csproj.GenerateResourc
 E:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 E:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.exe
 E:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.pdb
+F:\Git\ControleManutencaoAutomotiva\Model\bin\Debug\Model.exe.config
+F:\Git\ControleManutencaoAutomotiva\Model\bin\Debug\Model.exe
+F:\Git\ControleManutencaoAutomotiva\Model\bin\Debug\Model.pdb
+F:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.csprojAssemblyReference.cache
+F:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.Properties.Resources.resources
+F:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.csproj.GenerateResource.cache
+F:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+F:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.exe
+F:\Git\ControleManutencaoAutomotiva\Model\obj\Debug\Model.pdb

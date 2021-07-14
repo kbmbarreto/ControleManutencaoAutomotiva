@@ -35,3 +35,16 @@ E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.CoreC
 E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.CopyComplete
 E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.exe
 E:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.pdb
+F:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Controller.exe.config
+F:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Controller.exe
+F:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Controller.pdb
+F:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Model.exe
+F:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Model.pdb
+F:\Git\ControleManutencaoAutomotiva\Controller\bin\Debug\Model.exe.config
+F:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
+F:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.Properties.Resources.resources
+F:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.GenerateResource.cache
+F:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+F:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.csproj.CopyComplete
+F:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.exe
+F:\Git\ControleManutencaoAutomotiva\Controller\obj\Debug\Controller.pdb
